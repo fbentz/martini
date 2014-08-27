@@ -6,6 +6,7 @@ Language Translations:
 * [Simplified Chinese (zh_CN)](translations/README_zh_cn.md)
 * [Português Brasileiro (PT_br)](translations/README_pt_br.md)
 * [Español](translations/README_es_ES.md)
+* [Français (fr_FR)](translations/README_fr_FR.md)
 * [한국어 번역](translations/README_ko_kr.md)
 * [Русский](translations/README_ru_RU.md)
 * [日本語](translations/README_ja_JP.md)

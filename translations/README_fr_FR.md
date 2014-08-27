@@ -35,4 +35,42 @@ Vous avez maintenant un serveur web Martini qui fonctionne sur `localhost:3000`
 
 ## Besoins d'aide
 
+Rejoignez nous sur la [list de diffusion](https://groups.google.com/forum/#!forum/martini-go)
 
+Regardez la [Vidéo de démonstration](http://martini.codegangsta.io/#demo)
+
+Posez des questions sur Stackoverflow en utilisant le [tag martini](http://stackoverflow.com/questions/tagged/martini)
+
+GoDoc [documentation](http://godoc.org/github.com/go-martini/martini)
+
+## Fonctionalités 
+* Extrement simple à utiliser.
+* Design non-intrusif.
+* S'intègre facilement avec d'autre paquet Go.
+* Excellent reconnaissance de path et route.
+* Design modulaire - Simplicité pour ajouter une fonctionnalité.
+* Beaucoup de gestionnaires/middlewares à utiliser.
+* Great 'out of the box' feature set.
+* **Compatible complétement avec [http.HandlerFunc](http://godoc.org/net/http#HandlerFunc) interface.**
+
+## Plus de middleware
+Pour plus de middleware et de fonctionnalité, récupèrer le repo dans l'organisation  [martini-contrib](https://github.com/martini-contrib).
+
+## Table des matières
+* [Classic Martini](#classic-martini)
+  * [Gestionnaires](#handlers)
+  * [Routing](#routing)
+  * [Services](#services)
+  * [Serving Static Files](#serving-static-files)
+* [Middleware Handlers](#middleware-handlers)
+  * [Next()](#next)
+* [Envirronement de martini](#martini-env)
+* [FAQ](#faq)
+
+## Classic Martini
+To get up and running quickly, [martini.Classic()](http://godoc.org/github.com/go-martini/martini#Classic) provides some reasonable defaults that work well for most web applications:
+~~~ go
+  m := martini.Classic()
+  // ... middleware and routing goes here
+  m.Run()
+~~~
